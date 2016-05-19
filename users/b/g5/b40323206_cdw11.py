@@ -2,7 +2,7 @@
 from flask import Blueprint, render_template, make_response
 
 # 利用 Blueprint建立 ag1, 並且 url 前綴為 /ag1, 並設定 template 存放目錄
-bg9_40323250 = Blueprint('bg5_40323206', __name__, url_prefix='/bg5_40323206', template_folder='templates')
+bg5_40323206 = Blueprint('bg5_40323206', __name__, url_prefix='/bg5_40323206', template_folder='templates')
 
 
 

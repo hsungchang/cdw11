@@ -7,8 +7,8 @@ bg5_40323204 = Blueprint('bg5_40323204', __name__, url_prefix='/bg5_40323204', t
 
 
 
-@bg5_40323204.route('/task04-1')
-def task04-1():
+@bg5_40323204.route('/task04_1')
+def task04_1():
     outstring = '''
 <!DOCTYPE html>
 <html>
@@ -213,8 +213,8 @@ mychain.basic(x10, y10, x1, y1, color="green")
     return outstring
     
 
-@bg5_40323204.route('/task04-2')
-def task04-2():
+@bg5_40323204.route('/task04_2')
+def task04_2():
     outstring = '''
 <!DOCTYPE html>
 <html>
@@ -425,8 +425,8 @@ mychain.basic(x10, y10, 0+65*3, 0, color="#008844")
 
 
 
-@bg5_40323204.route('/task04-3')
-def task04-3():
+@bg5_40323204.route('/task04_3')
+def task04_3():
     outstring = '''
 <!DOCTYPE html>
 <html>
